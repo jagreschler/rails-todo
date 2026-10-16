@@ -1,0 +1,15 @@
+<div id="<%= dom_id task %>">
+  <div>
+    <strong>Title:</strong>
+    <%= task.title %>
+  </div>
+
+  <div>
+    <strong>Completed:</strong>
+    <%= task.completed %>
+  </div>
+
+  <% unless task.completed? %>
+    <%= button_to "Mark done", task, method: :patch, params: { task: { completed: true } } %>
+  <% end %>
+</div>
