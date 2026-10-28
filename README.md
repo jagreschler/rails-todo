@@ -4,7 +4,7 @@ A minimal Rails to-do list. Tasks have a required title and a completed flag tha
 
 ## Requirements
 
-- Ruby 3.2.3 (see `.ruby-version`)
+- Ruby 3.4.12 (see `.ruby-version`)
 - Rails 8.1
 - SQLite 3
 
